@@ -39,7 +39,7 @@ def group_kmers(input_kmers: List[str], kmer_base: str,
         return Outcomes.invalid_nuc_requested.value
     
     # validate numerical input parameters
-    if position_dependent_frequency <= 0.0:
+    if position_dependent_frequency <= 0:
         return Outcomes.invalid_number_requested.value
     
     
