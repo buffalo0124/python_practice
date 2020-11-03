@@ -54,8 +54,8 @@ def group_kmers(input_kmers: List[str], kmer_base: str,
         valid_bases = 
         
         
-def obtain_kmer(input_sequences: List[str],
-                kmer_size: float) -> List[str]:
+def kmer_size(input_sequences: List[str],
+              kmer_length: float) -> List[str]:
     
     sequence = input_sequences[]
                 
